@@ -2,4 +2,6 @@
 ![rank](image/rank.png)
 + Simple U-net architecture with one downsample
 + DAB block includes one Channel Attetion and One Spatial Attention
-+ every encoder stage have one DAB block
++ There is a DAB block in each encoder stage
++ Bayer Image as model's input directly
++ Classic image augmentation works
