@@ -159,4 +159,4 @@ if __name__ == '__main__':
     resume = args.resume
     aug = args.aug
     train(args.name, model, resume, loss=loss, epochs=args.epoch, patience=args.epoch, lr=args.lr, aug=aug,
-          mode='bayer', bayerAug=False, finetune=True)
+          mode='bayer', bayerAug=False, finetune=False)
